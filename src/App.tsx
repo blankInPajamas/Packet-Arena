@@ -1,15 +1,9 @@
-import { useState } from 'react'
-import './App.css'
-import LandingPage from './pages/LandingPage.tsx';
+import LandingPage from "./pages/LandingPage";
 
-function App() {
-  const [count, setCount] = useState(0)
-
+export default function App() {
   return (
-    <>
+    <div className="w-full min-h-screen bg-white">
       <LandingPage />
-    </>
-  )
+    </div>
+  );
 }
-
-export default App

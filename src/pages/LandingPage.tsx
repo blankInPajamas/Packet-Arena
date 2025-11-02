@@ -1,15 +1,11 @@
-function MyButton(){
-    return(
-        <button>I'm a btn</button>
-    )
-}
+import Navbar from "../components/Navbar";
+import Herosection from "../components/HeroSection";
 
-export default function MyApp()
-{
-    return (
-        <div>
-            <h1>Welcome to my app</h1>
-            <MyButton />
-        </div>
-    )
+export default function MyApp() {
+  return (
+    <>
+      <Navbar />
+      <Herosection />
+    </>
+  );
 }
